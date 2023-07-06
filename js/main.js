@@ -2,9 +2,9 @@
 const trailer = document.querySelector(".trailer");
 
 window.addEventListener("click", () => {
-  trailer.style.backgroundImage = `url("../assets/cursor-click.svg")`;
+  trailer.style.backgroundImage = `url("./assets/cursor-click.svg")`;
   setTimeout(() => {
-    trailer.style.backgroundImage = `url("../assets/cursor.svg")`;
+    trailer.style.backgroundImage = `url("./assets/cursor.svg")`;
   }, 100);
 });
 
